@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Maze
 {
 	public int NUM_ROWS, NUM_COLS;
@@ -32,7 +34,10 @@ public class Maze
 
 		printMaze();
 	}
-
+	public int[][] getArray()
+	{
+		return mazeArray;
+	}
 	public static void addWall(int row, int col)
 	{
 		mazeArray[row][col] = WALL;
