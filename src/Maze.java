@@ -42,7 +42,6 @@ public class Maze
 
 		setStart(0, 0);
 		setEnd(7, 7);
-
 		printMaze();
 	}
 	public int[][] getArray()
